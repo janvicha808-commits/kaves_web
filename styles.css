@@ -1,7 +1,6 @@
 body{
   margin: 0;
-  height: 100vw;
-  min-width: fit-content;
+  width: 100%;
   padding-top: 58px;
 }
 .pozadi{
@@ -10,7 +9,7 @@ body{
 .obrazek {
   position: relative;
   clear: both;          
-  min-width: 100vw;
+  min-width: 100%;
   height: 400px;         
   margin: 0 ;        
   align-items: center;
@@ -24,7 +23,7 @@ body{
 .obrazek_dole {
   position: relative;
   clear: both;          
-  min-width: 100vw;
+  min-width: 100%;
   height: 400px;         
   margin: 0;   
   align-items: center;
@@ -216,4 +215,10 @@ section {
     flex-direction: column !important;
     text-align: center;
   }
+
+  .thumbnail, .thumbnail_spec {
+    width: 90%;
+    height: auto;
+  }
 }
+
