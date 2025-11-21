@@ -215,6 +215,9 @@ section {
     flex-direction: column !important;
     text-align: center;
   }
+  body{
+    min-width: 100%;
+  }
 
   .thumbnail, .thumbnail_spec {
     width: 90%;
