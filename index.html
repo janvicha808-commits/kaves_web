@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" href="styles.css" />
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+      crossorigin="anonymous">
+    <title>Káves - kavárna k nezapomění</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styl.css"/>
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+  </head>
+  <body class="pozadi">
+    <section class="pozadi">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#kaves">Káves</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#onas">O NÁS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#program">VĚRNOSTNÍ PROGRAM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#akce">AKCE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#merch">MERCH</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">NABÍDKA</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#kavasebou">KÁVA SEBOU</a>
+        </li>
+    </div>
+  </div>
+</nav>
+    </section >
+      <div id="kaves" class="obrazek"></div>
+
+  <main class="obsah">
+
+    <section  class="blok_middle">
+      <h1 class="hlavni_nadpis">KÁVES</h1>
+      <p class="p_hlavni">V naší malé kavárně v srdci Olomouce věříme, že káva je víc než nápoj — je to proces, kde záleží na každém detailu. 
+      </br>Naši baristé dbají na to, aby pro vás byla každá káva výjimečným zážitkem.</p>
+    </section>
+    <section id="onas">
+      <div class="blok blok_left">
+        <img src="https://uploads.onecompiler.io/43ybv2fdn/44289uvgk/k%C3%A1vi%C4%8Dka%20se%20zrnem%202.jpg"
+          class="thumbnail"
+          onclick="openLightbox(this.src)">
+    
+          <div class="blok_middle_stin">
+            <h2 class="podnadpis">O NÁS</h2>
+            <p >Co jsme vlastně zač? Jsme malý rodinný podnik v centru Olomouce, kde se snažíme vybírat jen tu nejkvalitnější kávu pražernou buď v lokálních nebo malých pražírnách. 
+              Našimi hlavními kritériemi jsou čerstvost a kvalita. </p>
+          </div>
+
+        </div>      
+    </section>
+
+    <section id="program">
+      <div class="blok blok_right">
+        <img src="https://uploads.onecompiler.io/43ybv2fdn/44289uvgk/v%C4%9Brnostn%C3%AD%20program.jpg"
+          class="thumbnail_spec"
+          onclick="openLightbox(this.src)">
+
+          <div class="blok_middle_spec">
+            <h2 class="podnadpis">VĚRNOSTNÍ PROGRAM</h2>
+            <p>Jsi už unavený neustále utrácet za kávu?</br> Máme pro tebe řešení!
+            </br> Náš věrnostní program si zakoupíš jen jednou za měsíc a můžeš si každý den přijít pro boží kávu.</p>
+          </div>
+
+      </div> 
+   </section>
+   
+   <section id="akce">
+        <div class="blok blok_left">
+          <img src="https://uploads.onecompiler.io/43ybv2fdn/44289uvgk/valent%C3%BDn.jpg"
+               class="thumbnail"
+               onclick="openLightbox(this.src)">
+               
+          <div class="blok_middle_stin">
+            <h2 class="podnadpis">AKCE</h2>
+            <p>Ochutnal už jsi valentýnské cappuccino nebo prvorepublikové latté?
+            </br> Pokud ne, nenech si ujít naše speciální akce!</p>
+          </div>
+        </div>
+    </section>
+
+    <section id="merch">
+        <div class="blok blok_right">
+          <img src="https://uploads.onecompiler.io/43ybv2fdn/44289uvgk/merch.jpg"
+               class="thumbnail"
+               onclick="openLightbox(this.src)">
+          
+          <div class="blok_middle_stin">
+            <h2 class="podnadpis">MERCH</h2>
+            <p>Chceš na sobě nosit styl a kvalitu? Naše kávesky mají obojí! A jak ji získat?
+            </br> Můžeš ji dostat za splnění věrnostního programu nebo si ji jednoduše koupit. </p>
+          </div>
+        </div>
+      </section>
+    
+    <section id="menu" class="mt-5">
+        <div class="blok blok_left">
+          <img src="https://uploads.onecompiler.io/43ybv2fdn/44289uvgk/menu.jpg"
+               class="thumbnail"
+               onclick="openLightbox(this.src)">
+          
+          <div class="blok_middle_stin">
+            <h2 class="podnadpis">MENU</h2>
+            <p >Nechceš se nechat překvapit meníčkem až na místě? Koukni na něj tady.</p>
+            
+            <button type="button" class="btn btn-custom"
+              onclick="openLightbox('https://uploads.onecompiler.io/43ybv2fdn/44289uvgk/vyladene.jpg')">
+              Naše vyladěné<br>meníčko
+              
+            </button>
+          </div>
+        </div>
+    </section>
+
+    <section id="kavasebou" class="mt-5">
+        <div class="blok blok_right">
+          <img src="https://uploads.onecompiler.io/43ybv2fdn/44289uvgk/hrnecky.png"
+               class="thumbnail"
+               onclick="openLightbox(this.src)">
+          
+          <div class="blok_middle_stin">
+            <h2 class="podnadpis">KÁVA SEBOU </h2>
+            <p>Přijď si k nám se svým oblíbeným hrnečkem a odměníme tě 10% slevou na kávu!
+              <br>Ještě nemáš svůj oblíbený hrneček? 
+              <br>Rádi ti nabídneme náš originální, se kterým můžeš Káves hrdě reprezentovat kdekoliv.</p>
+          </div>
+        </div>
+    </section>
+
+  </main>   
+  <div class="obrazek_dole"
+    style="background-image:url('https://uploads.onecompiler.io/43ybv2fdn/44289uvgk/ano.jpg');">
+    <p class="text-na-obraze">
+     
+      <br>Těšíme se na Vaši návštěvu.
+      <br> Káves
+    </p>
+  </div>
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg" src="">
+  </div>
+ 
+   <script src="scripts.js"></script>
+   <style src="styles.css"></style>
+    
+</body>
+</html>
