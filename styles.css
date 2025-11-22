@@ -98,6 +98,7 @@ body{
   height: 320px;
   cursor: pointer;
   border-radius: 10px;
+  margin-top: 60px;
   transition: transform 0.3s;
   flex-shrink: 0;
 }
@@ -106,6 +107,7 @@ body{
   height: 450px;
   cursor: pointer;
   border-radius: 10px;
+  margin-top: 60px;
   transition: transform 0.3s;
   flex-shrink: 0;
 }
@@ -118,6 +120,7 @@ body{
 .lightbox img {
   max-width: 90%;
   max-height: 90%;
+  margin-top: 60px;
   border-radius: 10px;
   box-shadow: O O 20px rgba(0, 0, 0, 0.5);
 }
@@ -199,10 +202,10 @@ img, .thumbnail {
       top: 50%;               
       left: 50%;              
       transform: translate(-50%, -50%);
-      color: #b96c1e;
+      color: #F5E9D3;
       font-size: 35px;
       font-weight: bold;
-      -webkit-text-stroke: 1px white;
+     
       max-height: 400px;
       display: flex;
       
