@@ -17,7 +17,7 @@ body{
   background-position: center;
   background-size: cover; 
   background-repeat: no-repeat;
-  background: url("https://i.ibb.co/MkZwCWQ3/Chat-GPT-Image-26-11-2025-22-06-28.png") ;
+  background: url("https://i.ibb.co/MkZwCWQ3/Chat-GPT-Image-26-11-2025-22-06-28.png") center/cover no-repeat;
 
 }
 .obrazek_dole {
@@ -228,6 +228,7 @@ section {
     height: auto;
   }
 }
+
 
 
 
