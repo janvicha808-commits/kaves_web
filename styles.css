@@ -85,7 +85,7 @@ body{
   box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
   min-height: 320px;
   min-width: 320px
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .blok_middle_spec {
   display: flex;
@@ -96,7 +96,7 @@ body{
   box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
   min-height: 450px;
   min-width: 320px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .thumbnail {
   width: 480px;
@@ -231,6 +231,7 @@ section {
     height: auto;
   }
 }
+
 
 
 
