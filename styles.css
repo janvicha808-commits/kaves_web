@@ -17,7 +17,7 @@ body{
   background-position: center;
   background-size: cover; 
   background-repeat: no-repeat;
-  background: url("https://uploads.onecompiler.io/43ybv2fdn/44289uvgk/Bez%20n%C3%A1zvu.jpg") center/cover no-repeat;
+  background: center/cover no-repeat;
 
 }
 .obrazek_dole {
@@ -225,4 +225,5 @@ section {
     height: auto;
   }
 }
+
 
