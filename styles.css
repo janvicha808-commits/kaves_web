@@ -84,6 +84,7 @@ body{
   align-items: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
   min-height: 320px;
+  min-width: 320px
   border-radius: 20px;
 }
 .blok_middle_spec {
@@ -94,6 +95,8 @@ body{
   align-items: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
   min-height: 450px;
+  min-width: 320px;
+  border-radius: 20px;
 }
 .thumbnail {
   width: 480px;
@@ -110,6 +113,7 @@ body{
   border-radius: 10px;
   transition: transform 0.3s;
   flex-shrink: 0;
+  min-with:320px;
 }
 .thumbnail_spec:hover {
  transform: scale(1.03);
@@ -227,6 +231,7 @@ section {
     height: auto;
   }
 }
+
 
 
 
